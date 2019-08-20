@@ -19,6 +19,7 @@ body{
 #navbar {
   overflow: hidden;
  /* background-color: #333; */
+ height: 10%, auto;
 }
 
 #navbar a {
