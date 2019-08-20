@@ -3,9 +3,9 @@ body{
   background-repeat: no-repeat;
 }
 
-.logo{
-  height: 200;
-  width: 100px;
+#logo{
+  height: 20%;
+  width: 40%;l
   position: top;
 }
 
