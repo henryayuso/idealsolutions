@@ -3,12 +3,34 @@
 <head>
   <title>itsolutions</title>
   <link rel = "stylesheet" type="text/css" href="mystyle.css">
->
+
 </head>
 <body>
+  <div id="navbar">
+   <a class="active" href="javascript:void(0)">Home</a>
+   <a href="javascript:void(0)">services</a>
+   <a href="javascript:void(0)">Products</a>
+   <a href="javascript:void(0)">Contact</a>
+  </div>
+
   <div>
     <div>
        <img clas="logo" src="images/logo_transparent.png" alt="logo"> 
     </div>
   </div>
 </body>
+<script> // script that allow nav to stay at the top
+ window.onscroll = function() {myFunction()};
+
+ var navbar = document.getElementById("navbar");
+ var sticky = navbar.offsetTop;
+
+ function myFunction() {
+   if (window.pageYOffset >= sticky) {
+     navbar.classList.add("sticky")
+   } else {
+     navbar.classList.remove("sticky");
+   }
+ }
+ </script>
+<html>
