@@ -15,6 +15,10 @@ body{
   padding: 30px;
   text-align: center;
 }
+.dropdown-menu{
+height: auto, auto;
+  width: auto, auto;
+}
 
 #navbar {
   overflow: hidden;
