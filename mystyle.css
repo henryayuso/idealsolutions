@@ -10,7 +10,7 @@ body{
   width: 100%, auto;
 }
 img {
- position:center;
+ position:relative;
  align: middle;  
 }
 
