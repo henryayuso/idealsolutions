@@ -3,6 +3,13 @@ body{
   background-repeat: no-repeat;
 }
 
+#header{
+  background-image: url("images/idealsolutionsbg.jpg");
+  height: 30%, auto;
+  width: 100%, auto;
+}
+
+
 #logo{
   height: 20%;
   width: 70%, auto;
