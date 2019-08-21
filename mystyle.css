@@ -5,8 +5,13 @@ body{
 
 #header{
   background-image: url("images/idealsolutionsbg.jpg");
+  background-repeat: no-repeat;
   height: 1000PX, auto;
   width: 100%, auto;
+}
+img {
+ position:center;
+ align: middle;  
 }
 
 
