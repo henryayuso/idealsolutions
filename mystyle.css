@@ -1,6 +1,10 @@
 body{
   background-image: url("images/itit.jpeg");
   background-repeat: no-repeat;
+  position: relative;
+  top: 300px;
+  height:auto;
+  width: auto;
 }
 
 #header{
@@ -62,7 +66,12 @@ height: auto, auto;
   background-color: #4CAF50;
   color: white;
 }
-
+/*
+.dropdown-menu{
+  height:auto;
+  width: auto;
+}
+*/
 .content {
   padding: 16px;
 }
@@ -76,3 +85,5 @@ height: auto, auto;
 .sticky + .content {
   padding-top: 60px;
 }
+
+
