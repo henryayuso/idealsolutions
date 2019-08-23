@@ -32,6 +32,7 @@ img {
 .dropdown-menu{
 height: auto, auto;
   width: auto, auto;
+  z-index: 11;
 }
 
 #navbar {
@@ -49,6 +50,7 @@ height: auto, auto;
   text-decoration: none;
   font-size: 17px;
   border-radius: 10px;
+  height: auto,auto;
 }
 
 #navbar a:hover {
