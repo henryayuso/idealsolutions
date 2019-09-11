@@ -36,23 +36,24 @@ body{
 .dropdown-menu{
 height: auto, auto;
   width: auto, auto;
-  z-index: 11;
+  z-index: 101;
 }
 .dropdown-toggle{
-  height:90%, auto;
-  width: auto, auto;
+  height:auto;
+  width: auto;
+  z-index:100;
 }
 
 #navbar {
-  /*overflow: hidden;*/
- /* background-color: #333; */
- height: 30%, auto;
+ overflow: visible;
+ background-color: #333;
+ height: auto;
 }
 
 #navbar a {
   float: left;
   display: block;
-  color: #f2f2f2;
+  color:grey ;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -84,5 +85,3 @@ height: auto, auto;
 .sticky + .content {
   padding-top: 60px;
 }
-
-
