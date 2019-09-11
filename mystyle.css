@@ -1,5 +1,5 @@
 body{
- /* background-image: url("images/itit.jpeg"); */
+  background-size: 100%, auto;
   background-repeat: no-repeat;
   position: relative;
   top: 10px;
