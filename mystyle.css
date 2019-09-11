@@ -38,9 +38,13 @@ height: auto, auto;
   width: auto, auto;
   z-index: 11;
 }
+.dropdown-toggle{
+  height:90%, auto;
+  width: auto, auto;
+}
 
 #navbar {
-  overflow: hidden;
+  /*overflow: hidden;*/
  /* background-color: #333; */
  height: 30%, auto;
 }
@@ -65,11 +69,6 @@ height: auto, auto;
 #navbar a.active {
   background-color: #4CAF50;
   color: white;
-}
-
-.dropdown-toggle{
-  height:90%, auto;
-  width: auto, auto;
 }
 
 .content {
