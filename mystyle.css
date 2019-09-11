@@ -68,8 +68,8 @@ height: auto, auto;
 }
 
 .dropdown-menu{
-  height:auto;
-  width: auto;
+  height:90%, auto;
+  width: auto, auto;
 }
 
 .content {
