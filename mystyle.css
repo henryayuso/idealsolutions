@@ -170,7 +170,7 @@ img {vertical-align: middle;}
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
   animation-name: fade;
-  animation-duration: 2.5s;
+  animation-duration: 1.5s;
 }
 
 @-webkit-keyframes fade {
@@ -180,7 +180,7 @@ img {vertical-align: middle;}
 
 @keyframes fade {
   from {opacity: .4} 
-  to {opacity: 1}
+  to {opacity: 2}
 }
 
 /* On smaller screens, decrease text size */
