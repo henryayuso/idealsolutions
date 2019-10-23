@@ -94,9 +94,11 @@ img {vertical-align: middle;}
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
+  max-width: 800px;
+  max-height: 800px;
   position: relative;
   margin: auto;
+  border-radius: 20px;
  
   
 }
@@ -168,7 +170,7 @@ img {vertical-align: middle;}
 /* Fading animation */
 .fade {
   -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
+  -webkit-animation-duration: 3.5s;
   animation-name: fade;
   animation-duration: 1.5s;
 }
