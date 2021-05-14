@@ -96,8 +96,9 @@ img {vertical-align: middle;}
 
 /* Slideshow container */
 .slideshow-container {
-  width: 80%;
   height: 30%;
+  width: 80%;
+  border: solid 10px;
   position: relative;
  
    
