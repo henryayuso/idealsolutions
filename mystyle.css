@@ -96,13 +96,27 @@ img {vertical-align: middle;}
 
 /* Slideshow container */
 .slideshow-container {
-  height: 8%;
-  width: 80%;
-  border: solid 10px;
-  position: center;
+ height: 200px;
+  width: 70%;
+  background-color: powderblue;
+  border: 2px solid black;
+  padding: 30px;
+  position: absolute;
+  left: 50px
  
    
 }
+.slideshow-inner{
+ height: 100px;
+  width: 70%;
+  border: 2px solid black;
+  padding: 30px;
+  position: absolute;
+  left: 50px;
+  
+}
+
+
 
 /* Next & previous buttons */
 .prev, .next {
